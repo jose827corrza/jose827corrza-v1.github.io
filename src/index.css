@@ -1,3 +1,39 @@
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --backGround: #161C1B;
+  --bg2: #2C4244;
+  --cards: #485654
+    /* tonosverde */
+    --verdesito: #c7dabb;
+  --claro: #f6f6f4;
+  --lima: #9ec08d;
+  --verdeOscuro: #123c0d;
+  --verde: #1d4f15;
+
+  /* tierra */
+  --grava: #82725b;
+  --izq2: #afa094;
+  --centro: #d8cac7;
+  --der2: #a5978a;
+  --der: #dfd1d2;
+
+  /* marinos */
+  --uno: #91b5b3;
+  --dos: #86b1b0;
+  --tres: #a2bdba;
+  --cuatro: #956739;
+  --cinco: #efba85;
+
+  /* juguete */
+  --b1: #009ece;
+  --b2: #ff9e00;
+  --b3: #f7d708;
+  --b4: #ce0000;
+  --b5: #9ccf31;
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +41,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  cursor: url('./assets//icons/cursor.png'), auto;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+NavLink,
+a,
+button {
+  cursor: url('./assets/icons/cursor_link.png'), auto;
+  color: var(--b3);
+  font-size: 1.3rem;
+  font-size: bold;
+}
+NavLink:hover{
+  color: var(--b4);
 }
