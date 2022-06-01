@@ -42,7 +42,7 @@
   --black: #000000;
   --backGround: #161C1B;
   --bg2:#2C4244;
-  --cards:#485654
+  --cards:#485654;
 
   /* tonosverde */
   --verdesito: #c7dabb;
@@ -102,9 +102,9 @@ li{
 a{
   text-decoration: none;
 }
-.project{
-  color: red;
-}
+/* .project{
+  
+} */
 .landing{
   width: 100%;
   height: 100vh;
