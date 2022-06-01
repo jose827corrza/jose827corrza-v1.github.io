@@ -201,7 +201,7 @@ p {
   border-radius: 5px;
   border-color: black;
   border-width: 30px;
-  background-color: var(--cards);
+  /* background-color: var(--cards); */
   margin: 20px;
   padding: 10px;
   box-shadow: 0px 0px 0px 2px;
@@ -212,7 +212,7 @@ p {
   box-shadow: 0px 0px 2px 5px;
 }
 .card-title ~p, .card-title ~p, .languages ol{
-  background-color: var(--cards);
+  /* background-color: var(--cards); */
 }
 .project-image{
   width: 150px;
