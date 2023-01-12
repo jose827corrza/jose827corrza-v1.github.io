@@ -1,5 +1,6 @@
 import React from 'react'
 
+import profile from "./../assets/profile.jpeg";
 //import coding from './../assets/anim/73303-coding.json';
 
 const Home = () => {
@@ -15,7 +16,9 @@ const Home = () => {
           I am a backend developer, passionate with tech and IoT.
         </p>
       </div>
-      <div className='presentation'>Lado Izq</div>
+      <div className="my-img">
+          <img className="img-profile" src={profile} alt="thatsme" />
+        </div>
     </div>
   )
 }

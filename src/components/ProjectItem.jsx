@@ -1,24 +1,32 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { GoMarkGithub } from 'react-icons/go';
+import { FaExternalLinkAlt } from 'react-icons/fa';
 
 
-const ProjectItem = ({repoName, languages,repoRoute, repoUri}) => {
-    const items = languages.map((element)=>
-    <li>{element}</li>)
+const ProjectItem = ({repoName, languages, isDeploy, gitUrl, deployUrl, description}) => {
+    
   return (
-    <Link className='card' to={`/projects/${repoRoute}`}>
+    <div className='card'>
         {/* <img src={reactLogo} alt="project-image" /> */}
         <div className='project-info'>
             <h3 className='card-title' >{repoName}</h3>
             <br />
-            <h3 >Languages and technologies</h3>
-            <div className='languages'>
+            <p>{description}</p>
+            
+            {/* <div className='languages'>
                 <ol>
                     {items}
                 </ol>
-            </div>
+            </div> */}
+            <a href={gitUrl} className='contact'>
+                <GoMarkGithub fill="#f7d708" size={24}/>
+            </a>
+            <a href={deployUrl} className='contact'>
+            {!!isDeploy ? <FaExternalLinkAlt fill="#f7d708" size={24}/> : ""}
+            </a>
+            
         </div>
-    </Link>
+    </div>
   )
 }
 
