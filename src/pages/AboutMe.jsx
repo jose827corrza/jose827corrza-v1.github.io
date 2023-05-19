@@ -19,7 +19,7 @@ const AboutMe = () => {
           <p>
             My name is Jose Daniel I am 26 years old. I am electromechanical
             engineer, continuous learner, autodidact, and tech enthusiastic. I have been working
-            as a backend developer for a year in a fintech company. At the same time I've been learning 
+            as a backend developer for more than a year in a fintech company. At the same time I've been learning 
             about technologies, which I've used for creating a few APIs, apps and some frontends apps 🚀.
 
             {/* In these projects that I've developed, some of the tools and languages loved and used by 
