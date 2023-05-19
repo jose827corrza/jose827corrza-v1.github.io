@@ -66,7 +66,7 @@ const projectsList = [
   },
   {
     Id: 5,
-    Name: "TODO React app, local storage",
+    Name: "Rickable app, characters",
     Description:
       `Simple page use the essential React hooks. Consumes a Rick and Morty API to request the information showed`,
     Languages: ["Javascript", "React", "Tailwind"],
