@@ -96,6 +96,17 @@ const projectsList = [
     DeployUrl:
       "https://play.google.com/store/apps/details?id=com.josedev.pokedex&hl=es_CO&gl=US",
   },
+  {
+    Id: 8,
+    Name: "Serverless AWS Lambda CRUD",
+    Description:
+      "Its about a CRUD using  a few services from AWS which include, Lambda, S3, SQS, API Gateway and DynamoDB. All of this  orchestrated using Serverless Framework, which through Cloudformation, sets all the connections among the different services",
+    Languages: ["Javascript", "Python", "AWS"],
+    RepoUrl: "https://github.com/jose827corrza/lambda-crud-aws",
+    isDeployed: true,
+    DeployUrl:
+      "https://rmfuoiqto7.execute-api.us-east-1.amazonaws.com/dev",
+  },
 ]
 
 
