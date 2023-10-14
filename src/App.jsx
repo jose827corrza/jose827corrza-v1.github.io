@@ -8,7 +8,7 @@ import AboutMe from "./pages/AboutMe";
 import NotFound from "./pages/NotFound";
 
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Description from "./pages/Description";
 import Footer from "./components/Footer";
 
@@ -31,7 +31,7 @@ function App() {
         </a>
         
       </header> */}
-      <BrowserRouter>
+      <HashRouter>
         <Header />
         <Routes>
           <Route exact path="/" element={<Home/>} />
@@ -41,7 +41,7 @@ function App() {
           <Route path="*" element={<NotFound/>} />
         </Routes>
         <Footer/>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
