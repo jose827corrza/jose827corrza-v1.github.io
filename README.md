@@ -17,6 +17,6 @@ On the other hand you can easily watch which technologies  I usually use or have
 
 ## Projects
 
-In this  section I have listed some of my project, these ones I think are the mostcomplete, or have been the most challenging to me as professional, you can see backend is my speciality nevertheless some mobile and frontend project have been carried out.
+In this  section I have listed some of my project, these ones I think are the most complete, or have been the most challenging to me as professional, you can see backend is my speciality nevertheless some mobile and frontend project have been carried out.
 
 Currently I am trying to integrate  few of then into one big project, a complete integration  starting from the backend, later the frontend and I do not forget about the mobile importance on these days.
